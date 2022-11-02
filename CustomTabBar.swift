@@ -21,7 +21,9 @@ enum Tab: String, CaseIterable {
         
         
         var body: some View {
+            
             VStack {
+                Spacer()
                 HStack {
                     ForEach(Tab.allCases, id: \.rawValue) {tab in
                         Spacer ()

@@ -20,14 +20,14 @@
             landmarkType = "14">
             <Locations>
                <Location
-                  uuid = "0AE9150F-5A14-4BB2-BD61-56075CCB0CDA - 572fa8dc3e6aaec6"
+                  uuid = "0AE9150F-5A14-4BB2-BD61-56075CCB0CDA - 536c65f029493cf4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "property wrapper backing initializer of ar.ArtistSettings.selectedTab : ar.Tab"
                   moduleName = "ar"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fatmagazwani/Desktop/ar/ar/ArtistSettings.swift"
+                  urlString = "file:///Users/fatmagazwani/Desktop/First/ar/ArtistSettings.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"
@@ -35,14 +35,14 @@
                   offsetFromSymbolStart = "28">
                </Location>
                <Location
-                  uuid = "0AE9150F-5A14-4BB2-BD61-56075CCB0CDA - e46a2474abcda1fe"
+                  uuid = "0AE9150F-5A14-4BB2-BD61-56075CCB0CDA - e029e958bcee33cc"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ar.ArtistSettings.init() -&gt; ar.ArtistSettings"
                   moduleName = "ar"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fatmagazwani/Desktop/ar/ar/ArtistSettings.swift"
+                  urlString = "file:///Users/fatmagazwani/Desktop/First/ar/ArtistSettings.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"

@@ -1,5 +1,9 @@
 import SwiftUI
 struct ContentView: View {
+    @State private var selectedTab: Tab = .house
+    init() {
+        UITabBar .appearance() .isHidden = true
+    }
     @State private var searchText = ""
     let Backgroundimage = Image("Background")
     
@@ -40,13 +44,17 @@ struct ContentView: View {
     ]
     
     var body: some View {
-        
+       
         
         NavigationView{
             
+            
             ZStack{
                 
-                
+                VStack{
+                    Spacer ()
+                    CustomTabBar(selectedTab: $selectedTab)
+                }
                 ScrollView{
                     HStack(alignment: .top){
                         Text( "\(searchText)")

@@ -7,6 +7,7 @@ struct GridItem:Identifiable {
     let imgString: String
 }
 struct PinterestGrid: View {
+    
 
     struct Column: Identifiable {
         let id = UUID()
@@ -58,7 +59,9 @@ struct PinterestGrid: View {
         self.columns = columns
             }
 
-    var body: some View {
+    var body: some View{
+        
+        
         ZStack{
             
             HStack(alignment: .top, spacing: spacing){

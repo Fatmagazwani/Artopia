@@ -9,6 +9,8 @@ import SwiftUI
 
 struct BuyerSettings: View {
     @State private var isFullScreen = false
+    @State private var islocation = false 
+    @State private var isBuyerOrders = false
     @State private var selectedTab: Tab = .house
     init() {
         UITabBar .appearance() .isHidden = true
@@ -55,19 +57,33 @@ struct BuyerSettings: View {
                     .padding(.trailing, 170)
                     .padding(.bottom, 550)
             }
+            
             VStack(alignment: .leading, spacing: 15.0){
-                Button ("Orders"){}
-                    .font(.title2)
-                    .foregroundColor(Color("myblue"))
-                Button ("Address"){}
-                    .font(.title2)
-                    .foregroundColor(Color("myblue"))
+                
+                Button(action: {isBuyerOrders = true}
+                       , label:{
+                    Text( "Orders")
+                        .font(.title2)
+                        .foregroundColor(Color("myblue"))
+                })
+                
+                
+                Button(action: {islocation = true}
+                       , label:{
+                    Text( "Address")
+                        .font(.title2)
+                        .foregroundColor(Color("myblue"))
+                })
+                
+                
                 Button(action: {isFullScreen = true}
                        , label:{
                     Text( "PrivacyPolicy")
                         .font(.title2)
                         .foregroundColor(Color("myblue"))
                 })
+                
+                
                 Button("Log Out"){}
                     .font(.title2)
                     .foregroundColor(Color("myblue"))
@@ -83,8 +99,12 @@ struct BuyerSettings: View {
         }
         .fullScreenCover(isPresented: $isFullScreen){PrivacyPolicy()
         }
+        .fullScreenCover(isPresented: $islocation){Address()
+        }
+        .fullScreenCover(isPresented: $isBuyerOrders){BuyerOrders()
+                
+        }
     }
-    
     
     struct BuyerSettings_Previews: PreviewProvider {
         static var previews: some View {
