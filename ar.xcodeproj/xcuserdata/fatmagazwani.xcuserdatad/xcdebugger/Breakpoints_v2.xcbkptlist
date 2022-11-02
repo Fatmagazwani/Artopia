@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9FE8A88F-F375-4450-A5A9-D8D932021731"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0AE9150F-5A14-4BB2-BD61-56075CCB0CDA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ar/ArtistSettings.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ArtistSettings"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "0AE9150F-5A14-4BB2-BD61-56075CCB0CDA - 572fa8dc3e6aaec6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of ar.ArtistSettings.selectedTab : ar.Tab"
+                  moduleName = "ar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmagazwani/Desktop/ar/ar/ArtistSettings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "0AE9150F-5A14-4BB2-BD61-56075CCB0CDA - e46a2474abcda1fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ar.ArtistSettings.init() -&gt; ar.ArtistSettings"
+                  moduleName = "ar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fatmagazwani/Desktop/ar/ar/ArtistSettings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
